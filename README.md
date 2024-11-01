@@ -1,5 +1,6 @@
 ## Lenguaje Java 
 
-Mi guia básica sobre Java -> lenguaje orientado a objetos
+
+Mi guia básica intentando aprender sobre Java -> lenguaje orientado a objetos <- por mi cuenta :D
 
 
