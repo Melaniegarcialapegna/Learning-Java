@@ -1,6 +1,5 @@
-## Lenguaje Java 
+## Lenguaje Java
 
+Mi guía básica para aprender sobre Java, un lenguaje orientado a objetos, por mi cuenta :smiley:
 
-Mi guia básica intentando aprender sobre Java -> lenguaje orientado a objetos <- por mi cuenta :D
-
-Principalmente ayudandome con -> https://codigofacilito.com/articulos/tipos_datos_java
+Principalmente ayudándome con [CódigoFacilito](https://codigofacilito.com/)
