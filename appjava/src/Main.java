@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //VARIBALES PRIMITIVAS------------------------
@@ -54,7 +56,37 @@ public class Main {
         //por defecto uno de int me lo inicializa todos en 0
         // en bool todos falsos
         //string vacio
+        System.out.println(numeros);
 
+        // Arrays //OMG cuando le das enter te agrega la biblioteca de una (de la clase)
+        System.out.println(Arrays.toString(numeros));
+        numeros[0] = 5;
+        numeros[4] = 8;
+        System.out.println(Arrays.toString(numeros));
+        System.out.println(numeros.length); // length = len
+        Arrays.sort(numeros);
+        System.out.println(numeros); //devuelve direccion de memoria
+        System.out.println(Arrays.toString(numeros));//expresion : linea de codigo que te devuelve un valor
 
+        //Otra forma de crear arrays
+        int[] numeros2 = {0,1,2,3,4};
+        //array de multiple dimension
+        int[][] numeros3 = {{1,2},{3,4}};
+        System.out.println(Arrays.toString(numeros2));
+        System.out.println(Arrays.toString(numeros3));
+        System.out.println(Arrays.deepToString(numeros3));
+        int[][] numeros4 = new int[3][2];//fila columna
+        numeros4[0][0] = 5;
+        System.out.println(Arrays.deepToString(numeros4));
+        int[][][] numeros5 = new int[3][2][2];//fila columna
+        numeros5[0][0][0] = 5;
+        System.out.println(Arrays.deepToString(numeros5));
+
+        //CONSTANTES-------------------------------------------
+        //con el "final" convierto en constante
+        final String empresa = "Melanie Garcia Lapegna";
+        // empresa = "MGL"; me deja
+
+        //
     }
 }
